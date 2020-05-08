@@ -4,8 +4,8 @@ def line(people)
   if people.length == 0
     puts "The line is currently empty."
   else
-    puts array.join ". "
-    puts array.join "#{array.index() + 1}"
+    puts people.join ". "
+    puts people.join "#{people.index() + 1}"
   end
 end
 
