@@ -9,13 +9,13 @@ def line(people)
       numbered_people.push " #{people.index(i) + 1}. #{i}"
     end
     numbered_people.join
-    puts "The line is currently:" + numbered_people.join  
+    puts "The line is currently:" + numbered_people.join
   end
 end
 
 def take_a_number(people, name)
   if people.length > 0
-    puts "Welcome #{name}. You are number #{people.length + 1} in line."
+    puts "Welcome, #{name}. You are number #{people.length + 1} in line."
   end
 end
 
