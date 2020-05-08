@@ -5,7 +5,7 @@ def line(people)
     puts "The line is currently empty."
   else
     puts people.join ". "
-    puts people.join "#{people.index() + 1}"
+    puts people.each |i|
   end
 end
 
