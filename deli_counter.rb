@@ -14,9 +14,14 @@ def line(people)
 end
 
 def take_a_number(people, name)
-  if people.length > 0
-    puts "Welcome #{name}. You are number #{people.length + 1} in line."
-  end
+    if people.length == 0
+      people.push(name)
+    else
+      people.push(name)
+    end
+
+    puts "Welcome, #{name}. You are number #{people.length + 1} in line."
+    end
 end
 
 def now_serving(people)
