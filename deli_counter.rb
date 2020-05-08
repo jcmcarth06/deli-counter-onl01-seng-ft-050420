@@ -19,7 +19,7 @@ def take_a_number(people, name)
     else
       people.push(name)
     end
-  puts "Welcome, #{name}. You are number #{people.length + 1} in line."
+  puts "Welcome, #{name}. You are number #{people.length} in line."
 end
 
 def now_serving(people)
