@@ -6,10 +6,10 @@ def line(people)
   else
     numbered_people = []
     people.each do |i|
-      numbered_people.push "#{people.index(i) + 1}. #{i} "
+      numbered_people.push " #{people.index(i) + 1}. #{i}"
     end
     numbered_people.join
-    puts "The line is currently: " + numbered_people.join
+    puts "The line is currently:" + numbered_people.join  
   end
 end
 
